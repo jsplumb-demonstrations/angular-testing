@@ -1,0 +1,14 @@
+.test-node {
+  width:100px;
+  height:80px;
+  outline:1px solid;
+}
+
+.connect {
+  position:absolute;
+  right:5px;
+  bottom:5px;
+  width:15px;
+  height:15px;
+  background-color:pink;
+}

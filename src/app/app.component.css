@@ -1,0 +1,10 @@
+jsplumb-surface {
+  height:600px;
+  display:block;
+}
+
+jsplumb-controls {
+  position:absolute;
+  left:2rem;
+  top:2rem;
+}
