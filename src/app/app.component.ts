@@ -2,7 +2,7 @@ import {AfterViewInit, Component, ViewChild} from '@angular/core'
 
 import { AbsoluteLayout, EVENT_TAP } from "@jsplumbtoolkit/browser-ui";
 import {NodeComponent} from "./node.component"
-import {jsPlumbSurfaceComponent} from "@jsplumbtoolkit/browser-ui-angular"
+import {SurfaceComponent} from "@jsplumbtoolkit/browser-ui-angular"
 
 
 @Component({
@@ -15,7 +15,7 @@ export class AppComponent implements AfterViewInit {
 
   tapCount = 0
 
-  @ViewChild(jsPlumbSurfaceComponent) surface!:jsPlumbSurfaceComponent
+  @ViewChild(SurfaceComponent) surface!:SurfaceComponent
 
   renderOptions = {
     layout:{
